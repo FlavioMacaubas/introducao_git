@@ -1,5 +1,6 @@
 # Projeto Ciência de Dados
 
 ## Autor: Flávio Macaúbas Torres Filho
-## Data: 26/08/2021
+## Data: 2021
+## Linguagem: Python
 
