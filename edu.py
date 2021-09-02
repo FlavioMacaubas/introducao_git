@@ -12,7 +12,8 @@ else:
         situacao = "aprovado por média"
     elif (4 <= nota < 7):
         nota_final = float(input("Informe a nota final/recuperação: \n"))
-        situacao = "aprovado na final" if (0.6*nota + 0.4*nota_final) >= 5 else "reprovado na final"
+        media_final = (0.6*nota + 0.4*nota_final)
+        situacao = "aprovado na final" if media_final >= 5 else "reprovado na final"
     else:
         situacao = "reprovado por média"
         
