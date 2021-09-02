@@ -7,8 +7,8 @@ reprovacoes = int(input("Informe quantidade de reprovações: \n").replace(',','
 cra = float(input("Informe o CRA: \n").replace(',','.'))
 
 # Teste condições
-aprovado = (nota >= 7) and (freq >= 75)
-desligado = (reprovacoes >= 2) or (cra < 5)
+aprovado = True if ((nota >= 7) and (freq >= 75)) else False
+desligado = True if (reprovacoes >= 2) or (cra < 5) else False
 
 print(f"O aluno foi aprovado: {aprovado} \nO aluno foi desligado: {desligado}")
 
