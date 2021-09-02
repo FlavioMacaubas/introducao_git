@@ -1,10 +1,10 @@
 # Aplicativo - Aprovação e frequência
 
 # Informações do usuário 
-freq = float(input("Informe a frequência - em porcentagem: \n").replace(',','.'))
+faltas = float(input("Informe as faltas: \n").replace(',','.'))
 
 # Verificando reprovação
-if freq < 75:
+if faltas > 15:
     situacao = 'reprovado por falta'
 else:
     nota = float(input("Informe a nota: \n").replace(',','.'))
