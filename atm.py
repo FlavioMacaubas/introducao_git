@@ -7,8 +7,8 @@ notas = {100:0, 50:0, 10:0, 5:0, 1:0}
 try:
     saque = int(input("Digite o valor de saque em R$: ").replace(',','.'))
         
-    if saque < 0:
-        raise Exception("O valor de saque não pode ser negativo.")
+    if 10 < saque < 600:
+        raise Exception("O valor deve ser entre 10 e 600 reais")
             
     for nota in notas.keys():   
         if saque % nota > 0 or saque//nota > 0:
