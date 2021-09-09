@@ -9,13 +9,13 @@ imc = peso / altura**2
 
 if imc < 18.5:
     situacao = 'abaixo do peso'
-elif 18.5 <= imc < 25:
+elif imc < 25:
     situacao = 'peso normal'
-elif 25 <= imc < 30:
+elif imc < 30:
     situacao = 'sobrepeso'
-elif 30 <= imc < 35:
+elif imc < 35:
     situacao = 'obesidade grau 1'
-elif 35 <= imc < 40:
+elif imc < 40:
     situacao = 'obesidade grau 2'
 else:
     situacao = 'obesidade grau 3 ou mórbida'
