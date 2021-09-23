@@ -21,8 +21,8 @@ while True:
 
 
 if len(items) > 0: 
-    print(f'Valor da compra: {sum(items):.2f}')  
-    cash = float(input("Qual valor da nota?"))
+    print(f'Valor da compra (R$): {sum(items):.2f}')  
+    cash = float(input("Informe o valor pago: "))
     print(f"O troco é de: {(cash - sum(items) ):.2f}")
 else:
     print('Obrigado')
