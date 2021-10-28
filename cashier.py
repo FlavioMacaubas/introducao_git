@@ -1,5 +1,5 @@
 # Programa para caixa de supermercado
-
+import pandas as pd
 # Lista de despesas
 items = []
 
