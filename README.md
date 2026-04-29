@@ -1,5 +1,14 @@
-# Introdução ao git
+# introducao_git
 
-Curso de introdução ao git realizado no Programa de Pós-Graduação em Econômica da Universidade Federal da Paraíba.
+Material introdutório de Git para estudos e prática de versionamento.
 
-Neste momento do curso, não estávamos interessados na sofisticação ou propósito dos códigos implementadas, o único propósito era a familiarização com o uso do git.
+## Objetivo
+Consolidar comandos essenciais e fluxo básico de trabalho com repositórios.
+
+## Conteúdo
+- Comandos principais de Git
+- Exemplos de uso no terminal
+- Prática de versionamento
+
+## Observação
+Repositório de estudo, mantido como apoio didático.
