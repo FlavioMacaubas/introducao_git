@@ -1,6 +1,6 @@
 # introducao_git
 
-Material introdut├│rio de Git e versionamento para estudos.
+Material introdutório de Git e versionamento para estudos.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)
 ![Portfolio](https://img.shields.io/badge/Portfolio-Data%20Engineering%20%2B%20IA-0A66C2?style=flat)
